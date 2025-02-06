@@ -8,7 +8,7 @@ async function generateTemplate() {
     const goal = document.getElementById("goal").value;
     const tone = document.getElementById("tone").value;
 
-    const apiUrl = 'http://localhost:5000/generate'; // Ensure backend is running
+    const apiUrl = 'https://templategenerationn.netlify.app/generate'; // Ensure backend is running
 
     try {
         console.log("Sending request to server:", { templateType, goal, tone });
