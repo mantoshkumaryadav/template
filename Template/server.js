@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 require('dotenv').config(); // To use environment variables
 
 const app = express();
-const port = 5000;
+const port = templategeneration.netlify.app;
 
 // Middleware
 app.use(cors()); // Allow frontend to connect to backend
